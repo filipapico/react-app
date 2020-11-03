@@ -7,10 +7,10 @@ import Weather from './Weather';
 ReactDOM.render(
   <React.StrictMode>
     <Weather />
-    <footer>
+    <small>
       <a href="https://github.com/filipapico/react-app">Open-source code</a>
       , by <a href="https://www.linkedin.com/in/filipapico/">Filipa Pico</a>
-      </footer>
+      </small>
   </React.StrictMode>,
   document.getElementById('root')
 );
