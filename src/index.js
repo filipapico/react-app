@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Weather from './Weather';
 
 ReactDOM.render(
   <React.StrictMode>
     <Weather />
+    <footer>
+      <a href="https://github.com/filipapico/react-app">Open-source code</a>
+      , by <a href="https://www.linkedin.com/in/filipapico/">Filipa Pico</a>
+      </footer>
   </React.StrictMode>,
   document.getElementById('root')
 );
